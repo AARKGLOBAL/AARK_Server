@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-dotenv.config({path:'./config.env'}); //set path
+dotenv.config({path:'./.env'}); //set path
 
 import express from "express";
 import cors from 'cors';

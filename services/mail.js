@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import  {ClientSecretCredential} from '@azure/identity';
 // import  {Client} from '@microsoft/microsoft-graph-client';
 
-dotenv.config({path:'./config.env'}); //set path
+dotenv.config({path:'./.env'}); //set path
 
 const clientId = '628517cd-d90e-4427-b4b2-899dbc660253';
 const clientSecret = 'TJa8Q~EkEVOUExETwDVuGOEEqchj2re_6r0tzacl';

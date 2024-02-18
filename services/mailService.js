@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 import dotenv from 'dotenv';
 // import path from "path";
 
-dotenv.config({path:'./config.env'}); //set path
+dotenv.config({path:'./.env'}); //set path
 
 let transporter = nodemailer.createTransport({
   
